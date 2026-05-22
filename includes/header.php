@@ -1,3 +1,9 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="stylesheet" href="assets/css/carrinho.css">
     <link rel="stylesheet" href="assets/css/produto.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -37,5 +44,5 @@
                 </ul>
             </div>
         </nav>
-        </nav>
     </header>
+    <main class="conteudo-site">

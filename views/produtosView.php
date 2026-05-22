@@ -18,8 +18,8 @@
                                 <p class="preco">
                                     R$ <?php echo number_format($produto['preco'], 2, ',', '.'); ?>
                                 </p>
-                                <a href="produto.php?id=<?php echo $produto['id']; ?>">
-                                    <button>Ver Produto</button>
+                                <a href="adicionar_carrinho.php?id=<?php echo $produto['id']; ?>">
+                                    <button>Adicionar ao Carrinho</button>
                                 </a>
                             </div>
                         </div>
