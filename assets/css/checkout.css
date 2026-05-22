@@ -1,0 +1,30 @@
+.checkout-page{
+
+    min-height: 70vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+}
+
+.checkout-page h1{
+
+    font-size: 52px;
+
+    margin-bottom: 20px;
+}
+
+.checkout-page p{
+
+    font-size: 20px;
+
+    color: #bdbdbd;
+}

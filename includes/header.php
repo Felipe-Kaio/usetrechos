@@ -22,6 +22,7 @@ if (session_status() === PHP_SESSION_NONE) {
     <link rel="stylesheet" href="assets/css/carrinho.css">
     <link rel="stylesheet" href="assets/css/produto.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/checkout.css">
 
     <link rel="icon" href="assets/img/logotrechos.png" type="image/png">
 
